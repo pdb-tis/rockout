@@ -8,6 +8,7 @@
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 .team {
     background-image: url(../img/bg1.png);
     background-position: center;
@@ -22,4 +23,18 @@
 
 .text-contact-email {
   padding-top: 20px;
+=======
+.carousel-inner .item img {
+    overflow-y: hidden;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.carousel-inner .item h3 {
+    text-shadow: 2px 1px 1px #000;
+}
+
+#events.content-section {
+    padding-top: 80px;
+>>>>>>> a7acf3061d8825898fdeda033882f1837ce436cd
 }

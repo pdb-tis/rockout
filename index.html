@@ -24,6 +24,9 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/rockout.css" rel="stylesheet">
 
+    <!-- Images grid
+    <link rel="stylesheet" href="src/images-grid.css">-->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -91,73 +94,33 @@
             </div>
         </div>
     </header>
+
     <!-- Events Section -->
     <section id="events" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Secção Eventos</h2>
-            </div>
-        </div>
-        
-        <section class="team">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <img src="img/rock1.jpg" class="img-responsive">
-                                </div>
-                                <div class="col-lg-5">
-                                    <img src="img/rock2.jpg" class="img-responsive">
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="item">
-                            <div class="row">  
-                                <div class="col-lg-5">
-                                    <img src="img/rock3.jpg" class="img-responsive">
-                                </div>
-                                <div class="col-lg-5">
-                                    <img src="img/rock4.jpg" class="img-responsive">
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <img src="img/rock5.jpg" class="img-responsive">
-                                </div>
-                                <div class="col-lg-5">
-                                    <img src="img/rock6.jpg" class="img-responsive">
-                                </div>
-                            </div>  
-                        </div>
-                      <!-- Controls -->
-                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <div id="carousel-rockout" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-rockout" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-rockout" data-slide-to="1"></li>
+                        <li data-target="#carousel-rockout" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-rockout" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    </a>
+                    <a class="right carousel-control" href="#carousel-rockout" role="button" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                      </a>
-                    </div>      
-                  </div>
-              </div>
-          </div>
-      </section>
-        
-        
+                    </a>    
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Calendar Section -->
@@ -170,7 +133,7 @@
             </div>
         </div>
     </section>
-    
+
 <!-- Bands Section -->
     <section id="bands" class="content-section text-center">
         <div class="bands-section">
@@ -186,9 +149,16 @@
                     <div class="col-lg-4 col-lg-offset-2">
                         <div class="row">
                             <script>
-                                function bandImage() {
-                                    var query = bands[10].picture;
-                                }
+                                <div id="bandswall-rockout" class="bands wall">
+                                    <!-- Indicators -->
+                                    <ol class="bands-indicators">
+                                        <li data-target="#bandswall-rockout" data-slide-to="0" class="active"></li>
+                                        <li data-target="#bandswall-rockout" data-slide-to="1"></li>
+                                        <li data-target="#bandswall-rockout" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="bands-inner" role="listbox"></div>    
+                                </div>
                             </script>
                         </div>
                         <div class="row">
@@ -285,8 +255,16 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/carousel.js"></script>
+    
+    <!-- Let this one always on bottom -->
     <script src="js/main.js"></script>
 
+    <!-- Images grid
+    <script src="src/images-grid.js"></script>--> 
+  
 </body>
-
+  
 </html>
