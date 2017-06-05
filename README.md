@@ -1,4 +1,4 @@
-# Rock out
+# RockOut
 
 ## Portal de Divulgação de Bandas
 
