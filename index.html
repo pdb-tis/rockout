@@ -170,12 +170,81 @@
             </div>
         </div>
     </section>
-        <!-- Bands Section -->
+    
+<!-- Bands Section -->
     <section id="bands" class="content-section text-center">
-        <div class="calendar-section">
+        <div class="bands-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Secção Bandas</h2>
+                <div class="row">
+                    <!-- Get JSON objects -->
+                    <script>
+                        $.getJSON('database.json', function(data) {
+                            //do stuff with your data here
+                        });
+                    </script>
+                    <!-- Band's Wall -->
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <div class="row">
+                            <script>
+                                function bandImage() {
+                                    var query = bands[10].picture;
+                                }
+                            </script>
+                        </div>
+                        <div class="row">
+                            
+                        </div>
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+
+                    <!-- Band's Search and Info -->
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="bandInput" placeholder="Nome da Banda">
+                            <div id="bandList" style="width:400px; position:absolute; background-color:#FFFFFF; border:1px solid #CCCCCC; padding:5px; display:none"></div>
+                        </div>
+                        <button class="btn btn-default" onclick="submitForm()">Buscar</button>
+                        <!-- TEST -->
+                        <script>
+                            $('#gallery').imagesGrid({
+                                images: [
+                                    { src: 'imgs/1.jpg', thumbnail: 'imgs/1-thumbnail.jpg' },
+                                    { src: 'imgs/2.jpg', alt: 'Nature', title: 'Nature' },
+                                    'imgs/3.jpg',
+                                    { src: 'imgs/4.jpg', caption: 'The long way' },
+                                    'imgs/5.jpg',
+                                    'imgs/6.jpg',
+                                    'imgs/7.jpg'
+                                ],
+                                align: true
+                            }); 
+                        </script>
+                        <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+                        <script>
+                            var bands='[{"name": "Tesseract"},{"name": "Rammstein"}]';
+                            $(document).on('keyup', '#bandInput', function(e) {
+                                var numcar=$(this).val().length;
+                                var timer;
+                                clearTimeout(timer);
+                                var ms = 300; // milliseconds
+                                var key = this.value;
+                                timer = setTimeout(function() {
+                                    $("#bandList").html("");
+                                    $("#bandList").hide();
+                                    if(numcar>2) {
+                                        $.each($.parseJSON(bands), function() {
+                                            if(this.name.toLowerCase().indexOf(key.toLowerCase()) >= 0){
+                                                $("#bandList").append("<p class='keyFinal' >"+this.name+"</p>");
+                                            }
+                                        });
+                                        $("#bandList").show();
+                                    } //FIN TIMER
+                                }, ms);
+                            });
+                        </script>
+                    </div>
                 </div>
             </div>
         </div>
@@ -185,10 +254,10 @@
     <footer>
         <div id="contact" class="container text-center">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2 text-contact">
                     <h2>Contate o Portal Rockout</h2>
                     <p>Envie seu email para cadastrar uma banda ou evento, ou para fazer sugestões!</p>
-                    <p><a href="mailto:feedback@gmail.com">portalrockout@gmail.com</a>
+                    <p><a class="text-contact-email" href="mailto:contato_rockout@gmail.com">contato_rockout@gmail.com</a>
                     </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
