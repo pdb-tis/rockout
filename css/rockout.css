@@ -21,3 +21,11 @@
 #events.content-section {
     padding-top: 80px;
 }
+
+.search-result {
+    display: block;
+    border: 1px;
+    border-color: aquamarine;
+    height: 400px;
+    margin: 0 auto;
+}
