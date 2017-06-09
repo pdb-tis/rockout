@@ -29,3 +29,48 @@
     height: 400px;
     margin: 0 auto;
 }
+
+#calendar.content-section {
+    padding-top: 80px;
+}
+
+.calendar-col {
+	text-align: left;
+}
+
+.btn-primary {
+  border: 1px solid #42DCA3;
+  color: black;
+  background-color: #42DCA3;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border: 1px solid #B3F1DA;
+  outline: none;
+  color: black;
+  background-color: #B3F1DA;
+}
+
+.btn-group-vertical.btn-group-rotated .btn-month {
+	transform: rotate(-90deg);
+	margin-top: 0;
+}
+
+.btn-group-vertical.btn-group-rotated button.btn-lg.btn-month {
+	margin-bottom: 1.6em;
+}
+
+.btn-group-vertical.btn-group-rotated button.btn-lg:first-of-type,
+.btn-group-vertical.btn-group-rotated button.btn-lg:last-of-type {
+	width: 2.55em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-group-vertical.btn-group-rotated button.btn-lg:first-of-type {
+	margin-bottom: 0.8em;
+}
+
+.btn-group-vertical.btn-group-rotated button.btn-lg:last-of-type {
+	margin-top: -0.75em;
+}

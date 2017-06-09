@@ -83,7 +83,7 @@
                         <p class="intro-text">O portal de divulgação de eventos de Rock!
                             <br>Procure pelos próximos eventos e novas bandas,
                             <br>Cadastre seu evento ou sua banda!</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <a href="#events" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -124,8 +124,44 @@
     <section id="calendar" class="content-section text-center">
         <div class="calendar-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Seção Calendário</h2>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Seção Calendário</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-lg-offset-2 calendar-col">
+                        <div class="btn-group-vertical btn-group-rotated" role="group" aria-label="...">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-up"></i>
+                            </button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Jan</button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Fev</button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Abr</button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Mar</button>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-down"></i>
+                            </button>
+                        </div>
+                        <div class="btn-group-vertical" role="group" aria-label="...">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-up"></i>
+                            </button>
+                            <button type="button" class="btn btn-default btn-lg">1</button>
+                            <button type="button" class="btn btn-default btn-lg">2</button>
+                            <button type="button" class="btn btn-default btn-lg">3</button>
+                            <button type="button" class="btn btn-default btn-lg">4</button>
+                            <button type="button" class="btn btn-default btn-lg">5</button>
+                            <button type="button" class="btn btn-default btn-lg">6</button>
+                            <button type="button" class="btn btn-default btn-lg">7</button>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-1">
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,7 +222,7 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 
     <!-- jQuery UI -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -199,8 +235,11 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Let this one always on top -->
+    <script src="js/main.js"></script>
     
-    <!-- Custom JavaScript -->
+    <!-- Custom JavaScript (put yours here) -->
     <script src="js/carousel.js"></script>
     
     <!-- Let this one always on bottom -->
