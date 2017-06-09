@@ -85,7 +85,7 @@
                         <p class="intro-text">O portal de divulgação de eventos de Rock!
                             <br>Procure pelos próximos eventos e novas bandas,
                             <br>Cadastre seu evento ou sua banda!</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <a href="#events" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -146,33 +146,8 @@
                     <div class="col-lg-4">
                         <div class="form-group">
                             <input type="text" class="form-control" id="bandInput" placeholder="Nome da Banda">
-                            <div id="bandList" style="width:400px; position:absolute; background-color:#FFFFFF; border:1px solid #CCCCCC; padding:5px; display:none"></div>
                         </div>
-                        <button class="btn btn-default" onclick="submitForm()">Buscar</button>
-                        <!-- TEST -->
-                        <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-                        <script>
-                            var bands='[{"name": "Tesseract"},{"name": "Rammstein"}]';
-                            $(document).on('keyup', '#bandInput', function(e) {
-                                var numcar=$(this).val().length;
-                                var timer;
-                                clearTimeout(timer);
-                                var ms = 300; // milliseconds
-                                var key = this.value;
-                                timer = setTimeout(function() {
-                                    $("#bandList").html("");
-                                    $("#bandList").hide();
-                                    if(numcar>2) {
-                                        $.each($.parseJSON(bands), function() {
-                                            if(this.name.toLowerCase().indexOf(key.toLowerCase()) >= 0){
-                                                $("#bandList").append("<p class='keyFinal' >"+this.name+"</p>");
-                                            }
-                                        });
-                                        $("#bandList").show();
-                                    } //FIN TIMER
-                                }, ms);
-                            });
-                        </script>
+                        <button class="btn btn-default" onclick="submitForm()">Buscar</button>                       
                     </div>
                 </div>
             </div>
@@ -210,7 +185,7 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
@@ -220,16 +195,16 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Let this one always on top -->
+    <script src="js/main.js"></script>
     
-    <!-- Custom JavaScript -->
+    <!-- Custom JavaScript (put yours here) -->
     <script src="js/carousel.js"></script>
     
-    <!-- Let this one always on bottom -->
-    <script src="js/main.js"></script>
 
     <!-- Images grid
     <script src="src/images-grid.js"></script>--> 
-  
 </body>
   
 </html>

@@ -23,3 +23,5 @@ const populateCarousel = function () {
     carouselInner.find(".item").first().addClass("active");
     $('.carousel').carousel();
 }
+
+functionOnLoadPage.push(populateCarousel);
