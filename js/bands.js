@@ -295,7 +295,7 @@ var jsonData = {
 function loadBands() {
     var imgBand = '';
     var cont = 0;
-    for (j = 0; j < 3; j++) {
+    for (j = 1; j <= 3; j++) {
         imgBand += '<div class="row band-row">';
 
         for (i = 0; i < 3; i++) {
@@ -314,10 +314,10 @@ function loadInfoBandImg(id) {
 	id = id-1;
 	var infoBand = '';
 	infoBand += '<div class="band-name">' + jsonData.bands[id].name + '</div>';
-	infoBand += '<div class="band-description">' + jsonData.bands[id].description + '</div>';
 	infoBand += '<div class="band-img">';
 	infoBand += '<img src="' + jsonData.bands[id].picture + '" title="' + jsonData.bands[id].name + '">';
-	//imgBand += '</div>';
+	infoBand += '<div class="band-description">' + jsonData.bands[id].description + '</div>';
+    //imgBand += '</div>';
 	document.getElementById ('load-band-info').innerHTML = infoBand;
 };
 
