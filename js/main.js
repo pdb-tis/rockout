@@ -1,17 +1,18 @@
-const bands = [];
-const events = [];
-const functionOnLoadPage = [];
+const bands = []
+const events = []
+
+// Array of functions that may need to be executed after the database is fetched.
+// Add functions pushing it inside your own custom js file to keep things organized.
+const functionOnLoadPage = []
 const getDataBase = () => $.getJSON("js/database.json", function(data) {
-    $.each(data, function(key, val) {
-        (key == 'bands' && val.forEach(band => bands.push(band)));
-        (key == 'events' && val.forEach(band => events.push(band)));
-    });
-});
+	    $.each(data, function(key, val) {
+	        (key == 'bands' && val.forEach(band => bands.push(band)));
+	        (key == 'events' && val.forEach(event => events.push(event)));
+	    })
+	}).fail(function () { console.log(arguments) })
 
-const showEvent = () => {};
+// Temporary
+const showEvent = () => {}
 
-$(document).ready(() => getDataBase().then(() => functionOnLoadPage.forEach(fn => fn())));
-
-// --- on load functions --- //
-functionOnLoadPage.push(populateCarousel);
-functionOnLoadPage.push(populateBandsWall);
+$(document).ready(() => getDataBase().then(() => functionOnLoadPage.forEach(fn => fn())))
+functionOnLoadPage.push(loadBands);

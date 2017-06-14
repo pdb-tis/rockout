@@ -84,13 +84,8 @@
                         <h1 class="brand-heading">Rockout</h1>
                         <p class="intro-text">O portal de divulgação de eventos de Rock!
                             <br>Procure pelos próximos eventos e novas bandas,
-<<<<<<< HEAD
                             <br>Cadastre seu evento ou sua banda.</p>
                         <a href="#events" class="btn btn-circle page-scroll">
-=======
-                            <br>Cadastre seu evento ou sua banda!</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
->>>>>>> 28af71753490b054e05eb14ba49071bd35e40901
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -131,93 +126,61 @@
     <section id="calendar" class="content-section text-center">
         <div class="calendar-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Seção Calendário</h2>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Seção Calendário</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-lg-offset-2 calendar-col">
+                        <div class="btn-group-vertical btn-group-rotated" role="group" aria-label="...">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-up"></i>
+                            </button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Jan</button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Fev</button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Abr</button>
+                            <button type="button" class="btn btn-default btn-lg btn-month">Mar</button>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-down"></i>
+                            </button>
+                        </div>
+                        <div class="btn-group-vertical" role="group" aria-label="...">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-up"></i>
+                            </button>
+                            <button type="button" class="btn btn-default btn-lg">1</button>
+                            <button type="button" class="btn btn-default btn-lg">2</button>
+                            <button type="button" class="btn btn-default btn-lg">3</button>
+                            <button type="button" class="btn btn-default btn-lg">4</button>
+                            <button type="button" class="btn btn-default btn-lg">5</button>
+                            <button type="button" class="btn btn-default btn-lg">6</button>
+                            <button type="button" class="btn btn-default btn-lg">7</button>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                <i class="fa fa-angle-double-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-1">
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 <!-- Bands Section -->
-    <section id="bands" class="content-section text-center">
+    <section id="bands" class="content-section text-center" onload="loadBands()">
         <div class="bands-section">
             <div class="container">
                 <div class="row">
-                    <!-- Get JSON objects -->
-                    <script>
-                        $.getJSON('database.json', function(data) {
-                            //do stuff with your data here
-                        });
-                    </script>
-                    <!-- Band's Wall -->
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <div class="row">
-                            <script>
-                                <div id="bandswall-rockout" class="bands wall">
-                                    <!-- Indicators -->
-                                    <ol class="bands-indicators">
-                                        <li data-target="#bandswall-rockout" data-slide-to="0" class="active"></li>
-                                        <li data-target="#bandswall-rockout" data-slide-to="1"></li>
-                                        <li data-target="#bandswall-rockout" data-slide-to="2"></li>
-                                    </ol>
-                                    <!-- Wrapper for slides -->
-                                    <div class="bands-inner" role="listbox"></div>    
-                                </div>
-                            </script>
-                        </div>
-                        <div class="row">
-                            
-                        </div>
-                        <div class="row">
-                            
-                        </div>
+                    <!-- Band Wall -->
+                    <div class="col-lg-6 col-lg-offset-0">
+                        <div id="tela">Carregando ...</div>
                     </div>
-
-                    <!-- Band's Search and Info -->
+                    <!-- Band Search and Info -->
                     <div class="col-lg-4">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="bandInput" placeholder="Nome da Banda">
-                            <div id="bandList" style="width:400px; position:absolute; background-color:#FFFFFF; border:1px solid #CCCCCC; padding:5px; display:none"></div>
-                        </div>
-                        <button class="btn btn-default" onclick="submitForm()">Buscar</button>
-                        <!-- TEST -->
-                        <script>
-                            $('#gallery').imagesGrid({
-                                images: [
-                                    { src: 'imgs/1.jpg', thumbnail: 'imgs/1-thumbnail.jpg' },
-                                    { src: 'imgs/2.jpg', alt: 'Nature', title: 'Nature' },
-                                    'imgs/3.jpg',
-                                    { src: 'imgs/4.jpg', caption: 'The long way' },
-                                    'imgs/5.jpg',
-                                    'imgs/6.jpg',
-                                    'imgs/7.jpg'
-                                ],
-                                align: true
-                            }); 
-                        </script>
-                        <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-                        <script>
-                            var bands='[{"name": "Tesseract"},{"name": "Rammstein"}]';
-                            $(document).on('keyup', '#bandInput', function(e) {
-                                var numcar=$(this).val().length;
-                                var timer;
-                                clearTimeout(timer);
-                                var ms = 300; // milliseconds
-                                var key = this.value;
-                                timer = setTimeout(function() {
-                                    $("#bandList").html("");
-                                    $("#bandList").hide();
-                                    if(numcar>2) {
-                                        $.each($.parseJSON(bands), function() {
-                                            if(this.name.toLowerCase().indexOf(key.toLowerCase()) >= 0){
-                                                $("#bandList").append("<p class='keyFinal' >"+this.name+"</p>");
-                                            }
-                                        });
-                                        $("#bandList").show();
-                                    } //FIN TIMER
-                                }, ms);
-                            });
-                        </script>
+
                     </div>
                 </div>
             </div>
@@ -262,7 +225,10 @@
     
     <!-- Custom JavaScript -->
     <script src="js/carousel.js"></script>
-    
+
+     <!-- Custom JavaScript -->
+    <script src="js/bands.js"></script>
+
     <!-- Let this one always on bottom -->
     <script src="js/main.js"></script>
 
