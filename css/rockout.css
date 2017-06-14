@@ -129,6 +129,10 @@
 }
 
 /* Footer */
+footer {
+  padding-top: 220px;
+}
+
 .text-copyright {
   padding: 20px;
   margin-bottom: 0;
@@ -143,14 +147,57 @@
 }
 
 /* Bands Section */
+#bands {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
 .bands-section {
-  margin: 0;
+  margin-top: 0;
   height: 420px;
+  padding-bottom: 200px;
 }
 
 .band-img img {
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     margin-top: 5px;
     max-height: 160px;
     max-width: 180px;
+}
+
+.band-img img:hover {
+  border: 3px solid #42DCA3;
+}
+
+.vertical-center .row {
+  align-items: center;
+  display: flex;
+}
+
+.col-centered {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#load-band-info {
+  text-align: left;
+}
+
+.band-img-info img {
+  border: 3px solid #ddd;
+    margin-top: 5px;
+    max-height: 160px;
+    max-width: 180px;
+    align-content: middle;
+}
+
+.band-site {
+  color: #42DCA3; 
+}
+
+.band-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: bold;
 }
