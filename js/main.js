@@ -11,7 +11,4 @@ const getDataBase = () => $.getJSON("js/database.json", function(data) {
 	    })
 	}).fail(function () { console.log(arguments) })
 
-// Temporary
-const showEvent = () => {}
-
 $(document).ready(() => getDataBase().then(() => functionOnLoadPage.forEach(fn => fn())))
