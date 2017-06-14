@@ -16,6 +16,7 @@
 
 .carousel-inner .item h3 {
     text-shadow: 2px 1px 1px #000;
+    cursor: pointer;
 }
 
 #events.content-section {
@@ -31,7 +32,58 @@
 }
 
 #calendar.content-section {
-    padding-top: 80px;
+    padding-top: 150px;
+}
+
+.calendar-section .calendar-nav {
+	margin-top: 10px;
+}
+
+.events-details-container {
+	text-align: left;
+}
+
+.events-details-container .btn-back {
+	margin-bottom: 10px;
+}
+
+.events-details-container .row .col-lg-3 {
+	text-align: left;
+}
+
+.events-details-container .row .col-lg-3 {
+	text-align: left;
+}
+
+.events-details-container .row .col-lg-3 h1 {
+	color: #42DCA3;
+}
+
+.events-details-container .row .col-lg-9 {
+	text-align: right;
+}
+
+.events-details-container .media-list-bands {
+	margin-bottom: 10px;
+}
+
+.events-details-container .media-list-events img,
+.events-details-container .media-list-bands img {
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+}
+
+.events-details-container p,
+.events-details-container p {
+	font-size: 14px;
+	text-align: left;
+	margin: 0;
+}
+
+.events-details-container img.media-show-event {
+	max-width: 360px;
+	margin-bottom: 5px;
 }
 
 .calendar-col {
@@ -39,16 +91,17 @@
 }
 
 .btn-primary {
-  border: 1px solid #42DCA3;
-  color: black;
-  background-color: #42DCA3;
+	border: 1px solid #42DCA3;
+	color: black;
+	background-color: #42DCA3;
 }
+
 .btn-primary:hover,
 .btn-primary:focus {
-  border: 1px solid #B3F1DA;
-  outline: none;
-  color: black;
-  background-color: #B3F1DA;
+	border: 1px solid #B3F1DA;
+	outline: none;
+	color: black;
+ 	background-color: #B3F1DA;
 }
 
 .btn-group-vertical.btn-group-rotated .btn-month {
@@ -73,4 +126,31 @@
 
 .btn-group-vertical.btn-group-rotated button.btn-lg:last-of-type {
 	margin-top: -0.75em;
+}
+
+/* Footer */
+.text-copyright {
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.text-contact p {
+  padding: 10px;
+}
+
+.banner-social-buttons {
+  padding-top: 20px;
+}
+
+/* Bands Section */
+.bands-section {
+  margin: 0;
+  height: 420px;
+}
+
+.band-img img {
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    max-height: 160px;
+    max-width: 180px;
 }

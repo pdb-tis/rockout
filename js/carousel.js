@@ -12,7 +12,12 @@ const populateCarousel = function () {
         img.attr("src", e.picture);
         divCaption.addClass("carousel-caption");
         h3.text(e.name);
-        h3.click(showEvent(e.id));
+        h3.click(() => {
+            showEvent(e)
+            $('html, body').stop().animate({
+                scrollTop: $("#calendar").offset().top
+            }, 1500, 'easeInOutExpo');
+        });
         
         divCaption.append(h3);
         div.append(img);

@@ -2,30 +2,29 @@
 	"bands": [
 		{
 			"id": 1,
-			"name": "Tesseract",
-			"email": "tesseract@gmail.com",
-			"phone": "99669-9966",
-			"description": "TesseracT has arrived at the highly coveted destination of true creative freedom through bold artistic risk-taking, which has resulted in a loyal audience who are not only comfortable with being challenged by each successive release, but demand to be. A new TesseracT recording is a gift to unwrap, a puzzle to solve, an adventure that beckons.",
-			"web_site": "http://tesseractband.co.uk/",
-			"picture": "http://tesseractband.co.uk/wp-content/uploads/2015/07/tesseract-promo.jpg"
+			"name": "Fresno",
+			"email": "shows@perfexx.com.br",
+			"phone": "21 3069-5909",
+			"description": "",
+			"web_site": "http://www.fresnorock.com.br",
+			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/282700_240260412664490_846220_n.jpg?oh=bd56b7f0396bd7d83969d00559a1f379&oe=59DE304E"
 		},
 		{
 			"id": 2,
-			"name": "ONE OK ROCK",
-			"email": "oneokrock@gmail.com",
-			"phone": "84848-9989",
-			"description": "ONE OK ROCK is a Japanese rock band formed in 2005 and is represented by Amuse, Inc. It performs approximately 100 live concerts every year.",
-			"web_site": "http://www.oneokrock.com/",
-			"picture": "http://www.oneokrock.com/wp-content/uploads/2016/05/7c3a5f0fa95101d2d2923e447e1b9abf.jpg"
+			"name": "Riviera",
+			"email": "rivieraartbr@gmail.com",
+			"phone": "99112-1114",
+			"description": "Um projeto promissor e independente, que reflete de maneira transparente a mente de seu criador. Cantado em português, com letras profundas, acordes dissonantes, pegada forte, e uma voz que intercala entre o suave e o distorcido trazem um som que navega entre o rock alternativo, post-grunge até o rock progressivo. Uma sonoridade difícil de se enquadrar em apenas um estilo e incomum para os padrões brasileiros, porém, muito conhecida pelo mercado mundial, através de bandas como Silverchair, A Perfect Circle, Tool, entre tantas outras.",
+			"web_site": "http://www.riviera.art.br",
+			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/11377228_433762276803169_5934258575109658326_n.jpg?oh=a9f9d9cfb1b47d53d17da6c836b380cd&oe=59A43CB7"
 		},
 		{
 			"id": 3,
-			"name": "Alcest",
-			"email": "alcest@gmail.com",
-			"phone": "77445-9966",
-			"description": "Alcest was founded in the year 2000 by songwriter and multi-instrumentalist Neige (aka. Stéphane Paut) and later joined by drummer Winterhalter (Jean Deflandre) in 2009. Labeled as post metal/shoegaze or “blackgaze”, Alcest were the pioneers within this genre, crafting a unique sound based on musical opposites from their very first EP “Le Secret” (2005), and thru their full length releases “Souvenirs D'Un Autre Monde” (2007), “Écailles De Lune” (2010) and “Les Voyages De L'Ame” (2012). In 2014 their fourth album “Shelter” was released, marking the band's departure from the more metal sound, in favor of dream-pop aesthetics, surprising and somewhat challenging their fan base. In retrospective, the album opened new doors for Alcest, bringing them an audience from different horizons and a positive sense of unpredictability as musicians.",
-			"web_site": "https://www.alcest-music.com/",
-			"picture": "https://scontent.fplu9-1.fna.fbcdn.net/v/t31.0-8/17620180_1574060339293227_2961558008062834711_o.jpg?oh=f383e29f8615d2c4c82bccc61d52e1af&oe=598B8B20"
+			"name": "Elizia",
+			"email": "bandaelizia@gmail.com",
+			"phone": "99792-9089",
+			"description": "Elízia se firmou como um dos nomes mais atuantes na cena independente de BH, passando por todas as principais casas de show da cidade e participando de importantes festivais como ROCK STREET. A banda foi apontada como uma das revelações de 2015 e aposta para 2016 pelo site Audiograma, e uma das indicações em 2016 pela página 'A Cena Brasileira'. 'Subversivo, pop e caótico' foi a definição dada ao som da banda por público e crítica, e a que os integrantes tomaram pra si como a mais representativa de suas músicas. Buscando uma estética que converse com os dias atuais e na tentativa de trazer novas possibilidades ao rock nacional, as influências da banda são várias, passando por Circa Survive, Paramore, o jazz/soul de Amy Winehouse até a própria cena independente do rock nacional atual.",
+			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/13450778_1036264939756081_4688921273314908972_n.jpg?oh=7701a1b621fd36fdececfdc0dd07359c&oe=59DD4E76"
 		},
 		{
 			"id": 4,
@@ -130,8 +129,8 @@
 			"id": 15,
 			"name": "Seu Madruga AC/DC Cover",
 			"email": "seumadruga_acdc@gmail.com",
-			"phone": "99959-7135",
-			"description": "O Rock do AC/DC e o pastelão \"made in México\" da série televisiva Chaves, pode parecer uma mistura do tipo água e óleo, mas essa inusitada e feliz idéia gerou a excelente banda cover SEU MADRUGA. Com seu toque humorístico e profissional ao mesmo tempo, a banda presenteia ao público espontaneidade e humor característicos do carismático personagem que empresta o nome a banda.",
+			"phone": "9959-7135",
+			"description": "Seu Madruga	O Rock do AC/DC e o pastelão “made in México” da série televisiva Chaves, pode parecer uma mistura do tipo água e óleo, mas essa inusitada e feliz idéia gerou a excelente banda cover SEU MADRUGA. Com seu toque humorístico e profissional ao mesmo tempo, a banda presenteia ao público espontaneidade e humor característicos do carismático personagem que empresta o nome a banda.",
 			"web_site": "https://www.facebook.com/pg/Seu-Madruga-ACDC-Cover-208693702515997",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/12654451_1077072752344750_202040811674048455_n.jpg?oh=7266ab8ac67fce744618157a19d6c62d&oe=59AD023B"
 		},
@@ -173,77 +172,17 @@
 		},
         {
             "id": 20,
-            "name": "Rammstein",
-            "email": "kontact@rammstein.de",
-            "phone": "33232-1144",
-            "description": "Rammstein is a German Neue Deutsche Härte band, formed in 1994 in Berlin. Throughout its existence, Rammstein's six-man lineup has remained unchanged—singer Till Lindemann, guitarists Richard Z. Kruspe and Paul H. Landers, bassist Oliver 'Ollie' Riedel, drummer Christoph 'Doom' Schneider and keyboardist Christian 'Flake' Lorenz. The majority of their songs are in German, but they have also performed songs entirely or partially in other languages including English, Spanish, French, and Russian. Rammstein's award-winning live shows are known for their pyrotechnic elements and both on and off-stage theatrics. Rammstein's entire catalogue is published by Universal Music Group.",
-            "web_site": "https://www.rammstein.de/",
-            "picture": "https://s-media-cache-ak0.pinimg.com/originals/8b/51/b8/8b51b8962e409fa691380bacf1f62191.gif"
+            "name": "Banda Led III",
+            "email": "bandaled3@gmail.com",
+            "phone": "99104-0054",
+            "description": "",
+            "web_site": "https://www.facebook.com/pg/bandaLedIII",
+            "picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/12552602_141961992846921_2876990174437673294_n.jpg?oh=ffbe7058f486f741cdacc1d960cd363b&oe=59D8623E"
         }
 	],
 	"events": [
-		{
-			"id": 1,
-			"name": "Progressive Festival",
-			"description": "ProgDay is an annual outdoor festival of progressive music featuring artists from all over the world. Some bands have come from as close as North Carolina, and others from as far away as Sweden, Italy, Venezuela and Indonesia. ProgDay has been held every year since it's birth in 1995, making it the longest running progressive rock event in the world.",
-			"start_date": "September 2, 2017",
-			"end_date": "September 3, 2017",
-			"address": "Rua Frutal, 113, Santa Efigênia, Belo Horizonte, Minas Gerais, 35640000",
-			"age_rating": "18",
-			"bands": [1, 3],
-			"external_link": "https://www.progday.net/",
-			"picture": "https://www.progday.net/Images/Index-MrMushroom.jpg"
-		},
-		{
-			"id": 2,
-			"name": "Festival Pampulha Rock",
-			"description": "Shows de rock com bandas e artistas independentes da região da Pampulha e outras regionais. Produzido pelo o grupo O Coletivo - Bandas Independentes.",
-			"start_date": "May 4, 2017",
-			"end_date": "May 8, 2017",
-			"address": "Centro Cultural Pampulha - Rua Expedicionário Paulo de Souza, 185, Urca, Belo Horizonte, Minas Gerais",
-			"age_rating": "18",
-			"bands": [1, 2, 3],
-			"external_link": "http://www.bhfazcultura.pbh.gov.br/",
-			"picture": "https://pbs.twimg.com/media/Cvdp3scW8AA3tn1.jpg"
-		},
-		{
-			"id": 3,
-			"name": "Pop Rock",
-			"description": "O Pop Rock Brasil é o festival de música criado e produzido pela rádio 98 FM de Belo Horizonte.",
-			"start_date": "August 18, 2017",
-			"end_date": "August 20, 2017",
-			"address": "Avenida Antônio Abrahão Caran, 1001, São José, Belo Horizonte, Minas Gerais, 31275000",
-			"age_rating": "18",
-			"bands": [4, 5],
-			"external_link": "https://pt.wikipedia.org/wiki/Pop_Rock_Brasil",
-			"picture": "http://domtotal.com/img/noticias/2015-11/959644_237821.jpg"
-		},
-		{
-			"id": 4,
-			"name": "Sexta Jack",
-			"description": "Chegou o fim de semana e você quer ouvir o melhor do rock n' roll de todos os tempos? Sim! E mais: onde tenha cerveja gelada e várias opções em drinks exclusivos? Que tal também um belíssimo cardápio de sanduíches, petiscos e até culinária oriental? Ah, e também uma sinuca pra descontrair com os amigos! Esse lugar existe! E está há 14 anos do alto do tobogã da Contorno, convocando todos os admiradores do verdadeiro rock n' roll para noites inesquecíveis! Venha para o Jack Rock Bar! No palco, Aeroguns e Monkey Wrench com os clássicos imortais do estilo que nunca sai de moda!",
-			"start_date": "May 5, 2017",
-			"end_date": "May 6, 2017",
-			"address": "Avenida do Contorno, 5623, Funcionários, Belo Horizonte, Minas Gerais",
-			"age_rating": "18",
-			"bands": [1, 5],
-			"external_link": "http://www.circuitodorock.com.br/nossas-casas/jack-rock-bar/",
-			"picture": "http://bhaz.com.br/wp-content/uploads/2017/03/jack-bar1-esse-850x491.jpg"
-		},
-		{
-			"id": 5,
-			"name": "Let's Rock Saturday",
-			"description": "As suas noites nunca mais serão as mesmas, venha se divertir bastante e fazer parte da família Rota 85!",
-			"start_date": "May 20, 2017",
-			"end_date": "May 21, 2017",
-			"address": "Avenida Guarapari, 85, Santa Amélia, Belo Horizonte, Minas Gerais",
-			"age_rating": "18",
-			"bands": [2, 5],
-			"external_link": "http://rota85.com.br/",
-			"picture": "https://i.ytimg.com/vi/n7LIbIgQhSM/maxresdefault.jpg"
-		},
         {
-            "id": 6,
+            "id": 1,
 			"name": "Stone Collection",
 			"description": "Trazendo grandes clássicos ao Stonehenge Rock Bar",
 			"start_date": "Jun 16, 2017",
@@ -254,8 +193,8 @@
 			"external_link": "http://www.stonehengerockbar.com.br/",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18836077_1593965257313755_6905780295867915928_n.jpg?oh=553a5e21bac821000eea5c7079d5cb78&oe=59A8830C"
         },
-        {
-            "id": 7,
+        {    
+            "id": 2,
 			"name": "Outlaw Night",
 			"description": "Hillbilly Rawhide vem diretamente de Curitiba pra agitar a noite de BH com o melhor do Outlaw Country, Psychobilly e Rock n Roll! A abertura fica por conta dos nossos parceiros da Folsoms (BH).",
 			"start_date": "Jun 9, 2017",
@@ -266,8 +205,8 @@
 			"external_link": "https://www.sympla.com.br/outlaw-night---hillbilly-rawhide-pr-e-folsoms-bh-no-studio-bar__141550",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18268347_247395772332145_3208376577014310690_n.jpg?oh=ab068985b9b70992d8d8560004f27d40&oe=59ABD4A2"
         },
-        {
-            "id": 8,
+        {    
+            "id": 3,
 			"name": "Especial House grounge",
 			"description": "O bom filho a casa torna. Depois de mais de 6 meses comandando os domingos do Jack, o projeto House of Grunge retorna à casa para um show especial. Um encontro de músicos das bandas CA$H, Singles e Malt 90, homenageando os grandes nomes do grunge.",
 			"start_date": "Jun 17, 2017",
@@ -277,6 +216,78 @@
 			"bands": [13, 17],
 			"external_link": "https://www.facebook.com/singles.plays.pearl.jam/?fref=mentions",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18118478_123252174894349_5643092027002038367_n.jpg?oh=c77490261d489a7225a6841a59edc9d8&oe=59E225D1"
+        },
+		{
+			"id": 4,
+			"name": "Progressive Festival",
+			"description": "ProgDay é um festival anual a céu aberto, dedicado à música progressiva e estrelando artistas do mundo inteiro. Algumas bandas virão de bem perto, como da Venezuela, e outras virão de mais longe como Suécia, Itália, Estados Unidos e Indonésia. ProgDay acontece todo ano desde seu nascimento em 1995, se tornando o evento de rock progressivo mais longevo no mundo.",
+			"start_date": "September 2, 2017",
+			"end_date": "September 3, 2017",
+			"address": "Rua Frutal, 113, Santa Efigênia, Belo Horizonte, Minas Gerais, 35640000",
+			"age_rating": "18",
+			"bands": [4, 5],
+			"external_link": "https://www.progday.net/",
+			"picture": "https://www.progday.net/Images/Index-MrMushroom.jpg"
+		},
+		{
+			"id": 5,
+			"name": "A Sinfonia de Tudo Que Há",
+			"description": "Flaming Night #33 apresenta Fresno, com o show de lançamento do disco 'A Sinfonia de Tudo Que Há'. E ainda shows de abertura com as bandas Riviera e Elizia.",
+			"start_date": "Jun 25, 2017",
+			"end_date": "Jun 26, 2017",
+			"address": "Music Hall BH - Av. do Contorno, 3239, Santa Efigênia, Belo Horizonte, Minas Gerais",
+			"age_rating": "18",
+			"bands": [1, 2, 3],
+			"external_link": "https://ticketbrasil.com.br/show/5053-fresno-belohorizonte-mg/ingressos/",
+			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18740428_1515316531823526_186768848855913382_n.jpg?oh=fd5ca44785c1f67be63601dcb7275082&oe=59A922CC"
+		},
+		{
+			"id": 6,
+			"name": "Pop Rock",
+			"description": "O Pop Rock Brasil é o festival de música criado e produzido pela rádio 98 FM de Belo Horizonte.",
+			"start_date": "Jul 8, 2017",
+			"end_date": "Jul 9, 2017",
+			"address": "Avenida Antônio Abrahão Caran, 1001, São José, Belo Horizonte, Minas Gerais, 31275000",
+			"age_rating": "18",
+			"bands": [1, 5],
+			"external_link": "https://pt.wikipedia.org/wiki/Pop_Rock_Brasil",
+			"picture": "http://domtotal.com/img/noticias/2015-11/959644_237821.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Singles [Pearl Jam] + Seu Madruga [AC/DC]",
+			"description": "Dois dos maiores shows de rock do planeta! Duas das covers mais fiéis e queridas em BH! Uma ponte entre Seattle, Sidney e BH! Singles e Seu Madruga interpretando Pearl Jam e AC/DC na sua sexta de rock n' roll! Junte essa dobradinha ao autêntico ambiente de Pub do Lord, com direito a mais de 30 opções de cerveja, drinks exclusivos, culinária japonesa, petiscos e a nossa tradicional sinuca! A vibe perfeita para o fim de semana, no Lord Pub.",
+			"start_date": "May 9, 2017",
+			"end_date": "May 10, 2017",
+			"address": "Rua Viçosa, 263, Savassi, Belo Horizonte, Minas Gerais",
+			"age_rating": "18",
+			"bands": [15, 17],
+			"external_link": "https://www.facebook.com/events/443569156001503/",
+			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18893373_1424186994295883_3972517339329828775_n.jpg?oh=c3839f82a857fdf4c9403da9804726ea&oe=599D9DF9"
+		},
+		{
+			"id": 8,
+			"name": "Let's Rock Saturday",
+			"description": "As suas noites nunca mais serão as mesmas, venha se divertir bastante e fazer parte da família Rota 85!",
+			"start_date": "May 20, 2017",
+			"end_date": "May 21, 2017",
+			"address": "Avenida Guarapari, 85, Santa Amélia, Belo Horizonte, Minas Gerais",
+			"age_rating": "18",
+			"bands": [2, 5],
+			"external_link": "http://rota85.com.br/",
+			"picture": "https://i.ytimg.com/vi/n7LIbIgQhSM/maxresdefault.jpg"
+		},
+        {    
+            "id": 9,
+			"name": "Led III [Led Zeppelin] + Lurex [Queen]",
+			"description": "Tem dobradinha histórica no Lord! Duas bandas que excederam os limites do rock and roll e se tornaram importantes instituições da música de todos os tempos, nas interpretações precisas, explosivas e entusiasmantes de dois super grupos! Led Zeppelin e Queen por Led III e Lurex! Noite pra ficar na história do Lord Pub!",
+			"start_date": "Jun 10, 2017",
+			"end_date": "Jun 11, 2017",
+			"address": "Rua Viçosa, 263, Savassi, Belo Horizonte, Minas Gerais",
+			"age_rating": "18",
+			"bands": [14, 20],
+			"external_link": "https://www.facebook.com/events/856777121153798/",
+			"picture": "https://scontent.fplu8-1.fna.fbcdn.net/v/t1.0-9/18838964_1426061127441803_9211785854380100972_n.png?oh=cf0c1a5529d73ab9ef43cc39559d3972&oe=59DA6D3E"
         }
 	]
 }
