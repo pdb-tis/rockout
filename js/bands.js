@@ -292,41 +292,35 @@ var jsonData = {
 	]
 };
 
-
 function loadBands() {
-    
     var imgBand = '';
     var cont = 0;
     
     for (j = 0; j < 3; j++) {
         imgBand += '<div class="row band-row">';
+
         for (i = 0; i < 3; i++) {
             imgBand += '<div class="col-lg-4 band-img">';
             imgBand += '<img src="' + jsonData.bands[cont+j].picture + '" alt="' + jsonData.bands[cont+j].name + '" title="' + jsonData.bands[cont+j].name + '" onclick="loadInfoBand"' + '>';
             imgBand += '</div>';
-        
             cont = cont + 1;
         };
         
         imgBand += '</div>';
     }
-        document.getElementById ('load-band-img').innerHTML = imgBand;
+    document.getElementById ('load-band-img').innerHTML = imgBand;
 };
 
-
-function loadInfoBand() {
-	
-	var id = 1;
+function loadInfoBand(id) {
+	//var id = 1;
 	var infoBand = '';
-	
-	infoBand += '<div class="band-name">'+ jsonData.bands[id].name +'</div>';
-	infoBand += '<div class="band-description">'+ jsonData.bands[id].description + '</div>';
+	infoBand += '<div class="band-name">' + jsonData.bands[id].name + '</div>';
+	infoBand += '<div class="band-description">' + jsonData.bands[id].description + '</div>';
 	infoBand += '<div class="band-img">';
 	infoBand += '<img src="' + jsonData.bands[id].picture + '" title="' + jsonData.bands[id].name + '">';
 	//imgBand += '</div>';
-	
 	document.getElementById ('load-band-info').innerHTML = infoBand;
 };
 
 window.onload = loadBands();
-window.onload = loadInfoBand();
+//window.onload = loadInfoBand();

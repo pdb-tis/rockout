@@ -26,6 +26,7 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/rockout.css" rel="stylesheet">
     <link href="css/calendar-custom.css" rel="stylesheet">
+    <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -153,15 +154,15 @@
                 <div class="row">
                     <!-- Band Wall -->
                     <div class="col-lg-6 col-lg-offset-0">
-                        <div id="load-band-img">Carregando ...</div>
+                        <div id="load-band-img">Carregando...</div>
                     </div>
                     <!-- Band Search and Info -->
                     <div class="col-lg-4">
 						<div class="form-group">
-                            <input type="text" class="form-control" id="bandInput" placeholder="Nome da Banda">
+                            <input type="text" class="form-control ui-widget" id="bandInput" placeholder="Nome da Banda">
                         </div>
-                        <button class="btn btn-default" onclick="submitForm()">Buscar</button> 
-						<div id="load-band-info">Carregando ...</div>
+                        <button class="btn btn-default" onclick="search()">Buscar</button>
+						<div id="load-band-info">Carregando...</div>
                     </div>
                 </div>
             </div>
@@ -218,6 +219,7 @@
     
     <!-- Custom JavaScript (put yours here) -->
     <script type="text/javascript" src="js/bands.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
     <script type="text/javascript" src="js/carousel.js"></script>
     <script type="text/javascript" src="js/calendar.js"></script>
 
