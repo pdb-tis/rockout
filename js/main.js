@@ -15,4 +15,3 @@ const getDataBase = () => $.getJSON("js/database.json", function(data) {
 const showEvent = () => {}
 
 $(document).ready(() => getDataBase().then(() => functionOnLoadPage.forEach(fn => fn())))
-functionOnLoadPage.push(loadBands);

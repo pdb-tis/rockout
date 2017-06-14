@@ -148,9 +148,14 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
+    font-family: "CARD CHARACTERS";
+    padding-top: 200px;
   }
   .intro .intro-body .intro-text {
-    font-size: 26px;
+    font-size: 24px;
+    font-family: "CARD CHARACTERS";
+    padding-left: 90px;
+    padding-right: 90px;
   }
 }
 .btn-circle {
@@ -288,7 +293,7 @@ ul.banner-social-buttons {
   }
 }
 footer {
-  padding: 200px 0px 100px;
+  padding: 50px 0;
 }
 footer p {
   margin: 0;

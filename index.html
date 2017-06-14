@@ -84,7 +84,7 @@
                         <h1 class="brand-heading">Rockout</h1>
                         <p class="intro-text">O portal de divulgação de eventos de Rock!
                             <br>Procure pelos próximos eventos e novas bandas,
-                            <br>Cadastre seu evento ou sua banda.</p>
+                            <br>Cadastre seu evento ou sua banda!</p>
                         <a href="#events" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -169,18 +169,21 @@
         </div>
     </section>
 
-<!-- Bands Section -->
-    <section id="bands" class="content-section text-center" onload="loadBands()">
+    <!-- Bands Section -->
+    <section id="bands" class="content-section text-center">
         <div class="bands-section">
             <div class="container">
                 <div class="row">
                     <!-- Band Wall -->
-                    <div class="col-lg-6 col-lg-offset-0">
-                        <div id="tela">Carregando ...</div>
+                    <div class="col-lg-4 col-lg-offset-2">
+
                     </div>
                     <!-- Band Search and Info -->
                     <div class="col-lg-4">
-
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="bandInput" placeholder="Nome da Banda">
+                        </div>
+                        <button class="btn btn-default" onclick="submitForm()">Buscar</button>                       
                     </div>
                 </div>
             </div>
@@ -191,14 +194,20 @@
     <footer>
         <div id="contact" class="container text-center">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-contact">
+                <div class="col-lg-8 col-lg-offset-2">
                     <h2>Contate o Portal Rockout</h2>
                     <p>Envie seu email para cadastrar uma banda ou evento, ou para fazer sugestões!</p>
-                    <p><a class="text-contact-email" href="mailto:contato_rockout@gmail.com">contato_rockout@gmail.com</a>
+                    <p><a href="mailto:feedback@rockmail.com">portalrockout@rockmail.com</a>
                     </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="https://github.com/pdb-tis/rockout" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a href="https://twitter.com/PortalRockout" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/PortalRockout" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/PortalRockout" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
                         </li>
                     </ul>
                 </div>                    
@@ -212,7 +221,7 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
@@ -222,19 +231,16 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    
-    <!-- Custom JavaScript -->
-    <script src="js/carousel.js"></script>
 
-     <!-- Custom JavaScript -->
-    <script src="js/bands.js"></script>
-
-    <!-- Let this one always on bottom -->
+    <!-- Let this one always on top -->
     <script src="js/main.js"></script>
+    
+    <!-- Custom JavaScript (put yours here) -->
+    <script src="js/carousel.js"></script>
+    
 
     <!-- Images grid
     <script src="src/images-grid.js"></script>--> 
-  
 </body>
   
 </html>
