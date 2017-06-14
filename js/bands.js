@@ -24,6 +24,7 @@ var jsonData = {
 			"email": "bandaelizia@gmail.com",
 			"phone": "99792-9089",
 			"description": "Elízia se firmou como um dos nomes mais atuantes na cena independente de BH, passando por todas as principais casas de show da cidade e participando de importantes festivais como ROCK STREET. A banda foi apontada como uma das revelações de 2015 e aposta para 2016 pelo site Audiograma, e uma das indicações em 2016 pela página 'A Cena Brasileira'. 'Subversivo, pop e caótico' foi a definição dada ao som da banda por público e crítica, e a que os integrantes tomaram pra si como a mais representativa de suas músicas. Buscando uma estética que converse com os dias atuais e na tentativa de trazer novas possibilidades ao rock nacional, as influências da banda são várias, passando por Circa Survive, Paramore, o jazz/soul de Amy Winehouse até a própria cena independente do rock nacional atual.",
+			"web_site": "https://www.facebook.com/bandaelizia/",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/13450778_1036264939756081_4688921273314908972_n.jpg?oh=7701a1b621fd36fdececfdc0dd07359c&oe=59DD4E76"
 		},
 		{
@@ -130,7 +131,7 @@ var jsonData = {
 			"name": "Seu Madruga AC/DC Cover",
 			"email": "seumadruga_acdc@gmail.com",
 			"phone": "9959-7135",
-			"description": "Seu Madruga	O Rock do AC/DC e o pastelão “made in México” da série televisiva Chaves, pode parecer uma mistura do tipo água e óleo, mas essa inusitada e feliz idéia gerou a excelente banda cover SEU MADRUGA. Com seu toque humorístico e profissional ao mesmo tempo, a banda presenteia ao público espontaneidade e humor característicos do carismático personagem que empresta o nome a banda.",
+			"description": "Seu Madruga O Rock do AC/DC e o pastelão “made in México” da série televisiva Chaves, pode parecer uma mistura do tipo água e óleo, mas essa inusitada e feliz idéia gerou a excelente banda cover SEU MADRUGA. Com seu toque humorístico e profissional ao mesmo tempo, a banda presenteia ao público espontaneidade e humor característicos do carismático personagem que empresta o nome a banda.",
 			"web_site": "https://www.facebook.com/pg/Seu-Madruga-ACDC-Cover-208693702515997",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/12654451_1077072752344750_202040811674048455_n.jpg?oh=7266ab8ac67fce744618157a19d6c62d&oe=59AD023B"
 		},
@@ -313,11 +314,12 @@ function loadBands() {
 function loadInfoBandImg(id) {
 	id = id-1;
 	var infoBand = '';
-	infoBand += '<div class="band-name">' + jsonData.bands[id].name + '</div>';
-	infoBand += '<div class="band-img">';
+	infoBand += '<div class="band-name"> <strong>' + jsonData.bands[id].name + '</strong> </div>';
+	infoBand += '<div class="band-img-info">';
 	infoBand += '<img src="' + jsonData.bands[id].picture + '" title="' + jsonData.bands[id].name + '">';
 	infoBand += '<div class="band-description">' + jsonData.bands[id].description + '</div>';
-    //imgBand += '</div>';
+    infoBand += '<div class="band-site">' + jsonData.bands[id].web_site + '</div>';
+	//imgBand += '</div>';
 	document.getElementById ('load-band-info').innerHTML = infoBand;
 };
 
@@ -337,10 +339,11 @@ function searchBar() {
 function loadInfoBandBar(id) {
 	//var id = 1;
 	var infoBand = '';
-	infoBand += '<div class="band-name">' + jsonData.bands[id].name + '</div>';
-	infoBand += '<div class="band-description">' + jsonData.bands[id].description + '</div>';
-	infoBand += '<div class="band-img">';
+	infoBand += '<div class="band-name"> <strong>' + jsonData.bands[id].name + '</strong> </div>';
+	infoBand += '<div class="band-img-info">';
 	infoBand += '<img src="' + jsonData.bands[id].picture + '" title="' + jsonData.bands[id].name + '">';
+	infoBand += '<div class="band-description">' + jsonData.bands[id].description + '</div>';
+	infoBand += '<div class="band-site">' + jsonData.bands[id].web_site + '</div>';
 	//imgBand += '</div>';
 	document.getElementById ('load-band-info').innerHTML = infoBand;
 };
