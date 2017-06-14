@@ -170,20 +170,21 @@
     </section>
 
 <!-- Bands Section -->
-    <section id="bands" class="content-section text-center" onload="loadBands()">
+    <section id="bands" class="content-section text-center">
         <div class="bands-section">
             <div class="container">
                 <div class="row">
                     <!-- Band Wall -->
                     <div class="col-lg-6 col-lg-offset-0">
-                        <div id="tela">Carregando ...</div>
+                        <div id="load-band-img">Carregando ...</div>
                     </div>
                     <!-- Band Search and Info -->
                     <div class="col-lg-4">
-                        <div class="form-group">
+						<div class="form-group">
                             <input type="text" class="form-control" id="bandInput" placeholder="Nome da Banda">
                         </div>
-                        <button class="btn btn-default" onclick="submitForm()">Buscar</button>                       
+                        <button class="btn btn-default" onclick="submitForm()">Buscar</button>  
+						<div id="load-band-info">Carregando ...</div>
                     </div>
                 </div>
             </div>
@@ -216,7 +217,7 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-
+	
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
 
@@ -232,7 +233,7 @@
     <!-- Custom JavaScript (put yours here) -->
     <script src="js/carousel.js"></script>
     
-	<!-- Custom JavaScript -->
+    <!-- Custom JavaScript -->
     <script src="js/bands.js"></script>
 
     <!-- Images grid
