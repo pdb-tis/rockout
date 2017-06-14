@@ -877,7 +877,7 @@ if(!String.prototype.formatNum) {
 		}
 		return;
 	};
-	
+
 	Calendar.prototype.getYear = function() {
 		var p = this.options.position.start;
 		return p.getFullYear();
@@ -1013,7 +1013,7 @@ if(!String.prototype.formatNum) {
 			self.options.day = $(this).data('cal-date');
 			self.view(view);
 		});
-		
+
 		$('.cal-cell').dblclick(function() {
 			var view = $('[data-cal-date]', this).data('cal-view');
 			self.options.day = $('[data-cal-date]', this).data('cal-date');

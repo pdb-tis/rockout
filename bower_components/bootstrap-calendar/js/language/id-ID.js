@@ -79,7 +79,7 @@ window.calendar_languages['id-ID'] = {
 		'easter-2': 				'Jumat Agung',
 		'easter': 					'Paskah',
 		'easter+39': 				'Kenaikan Yesus Kristus',
-		
+
 		/* for 2016 */
 		'08-02-2016':				'Tahun Baru Imlek 2567',
 		'09-03-2016':				'Hari Raya Nyepi Tahun Baru Saka 1938',
@@ -90,6 +90,6 @@ window.calendar_languages['id-ID'] = {
 		'12-09-2016':				'Hari Raya Idul Adha 1437 Hijriah',
 		'02-10-2016':				'Tahun Baru Islam 1438 Hijriah',
 		'12-12-2016':				'Maulid Nabi Muhammad SAW'
-		
+
 	}
 };

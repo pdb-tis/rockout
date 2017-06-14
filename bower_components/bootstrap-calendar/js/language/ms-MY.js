@@ -62,7 +62,7 @@ window.calendar_languages['ms-MY'] = {
 
 	first_day: 1,
 	week_numbers_iso_8601: true,
- 
+
 	holidays: {
 		'18-07-2015':     	'Hari Raya Aidil Fitri 1436 Hijriah',
 
