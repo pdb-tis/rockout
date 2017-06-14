@@ -130,8 +130,8 @@
 			"id": 15,
 			"name": "Seu Madruga AC/DC Cover",
 			"email": "seumadruga_acdc@gmail.com",
-			"phone": "99959-7135",
-			"description": "O Rock do AC/DC e o pastelão \"made in México\" da série televisiva Chaves, pode parecer uma mistura do tipo água e óleo, mas essa inusitada e feliz idéia gerou a excelente banda cover SEU MADRUGA. Com seu toque humorístico e profissional ao mesmo tempo, a banda presenteia ao público espontaneidade e humor característicos do carismático personagem que empresta o nome a banda.",
+			"phone": "9959-7135",
+			"description": "Seu Madruga	O Rock do AC/DC e o pastelão “made in México” da série televisiva Chaves, pode parecer uma mistura do tipo água e óleo, mas essa inusitada e feliz idéia gerou a excelente banda cover SEU MADRUGA. Com seu toque humorístico e profissional ao mesmo tempo, a banda presenteia ao público espontaneidade e humor característicos do carismático personagem que empresta o nome a banda.",
 			"web_site": "https://www.facebook.com/pg/Seu-Madruga-ACDC-Cover-208693702515997",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/12654451_1077072752344750_202040811674048455_n.jpg?oh=7266ab8ac67fce744618157a19d6c62d&oe=59AD023B"
 		},
@@ -173,12 +173,12 @@
 		},
         {
             "id": 20,
-            "name": "Rammstein",
-            "email": "kontact@rammstein.de",
-            "phone": "33232-1144",
-            "description": "Rammstein is a German Neue Deutsche Härte band, formed in 1994 in Berlin. Throughout its existence, Rammstein's six-man lineup has remained unchanged—singer Till Lindemann, guitarists Richard Z. Kruspe and Paul H. Landers, bassist Oliver 'Ollie' Riedel, drummer Christoph 'Doom' Schneider and keyboardist Christian 'Flake' Lorenz. The majority of their songs are in German, but they have also performed songs entirely or partially in other languages including English, Spanish, French, and Russian. Rammstein's award-winning live shows are known for their pyrotechnic elements and both on and off-stage theatrics. Rammstein's entire catalogue is published by Universal Music Group.",
-            "web_site": "https://www.rammstein.de/",
-            "picture": "https://s-media-cache-ak0.pinimg.com/originals/8b/51/b8/8b51b8962e409fa691380bacf1f62191.gif"
+            "name": "Banda Led III",
+            "email": "bandaled3@gmail.com",
+            "phone": "99104-0054",
+            "description": "",
+            "web_site": "https://www.facebook.com/pg/bandaLedIII",
+            "picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/12552602_141961992846921_2876990174437673294_n.jpg?oh=ffbe7058f486f741cdacc1d960cd363b&oe=59D8623E"
         }
 	],
 	"events": [
@@ -254,7 +254,7 @@
 			"external_link": "http://www.stonehengerockbar.com.br/",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18836077_1593965257313755_6905780295867915928_n.jpg?oh=553a5e21bac821000eea5c7079d5cb78&oe=59A8830C"
         },
-        {
+        {    
             "id": 7,
 			"name": "Outlaw Night",
 			"description": "Hillbilly Rawhide vem diretamente de Curitiba pra agitar a noite de BH com o melhor do Outlaw Country, Psychobilly e Rock n Roll! A abertura fica por conta dos nossos parceiros da Folsoms (BH).",
@@ -266,7 +266,7 @@
 			"external_link": "https://www.sympla.com.br/outlaw-night---hillbilly-rawhide-pr-e-folsoms-bh-no-studio-bar__141550",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18268347_247395772332145_3208376577014310690_n.jpg?oh=ab068985b9b70992d8d8560004f27d40&oe=59ABD4A2"
         },
-        {
+        {    
             "id": 8,
 			"name": "Especial House grounge",
 			"description": "O bom filho a casa torna. Depois de mais de 6 meses comandando os domingos do Jack, o projeto House of Grunge retorna à casa para um show especial. Um encontro de músicos das bandas CA$H, Singles e Malt 90, homenageando os grandes nomes do grunge.",
@@ -277,6 +277,18 @@
 			"bands": [13, 17],
 			"external_link": "https://www.facebook.com/singles.plays.pearl.jam/?fref=mentions",
 			"picture": "https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/18118478_123252174894349_5643092027002038367_n.jpg?oh=c77490261d489a7225a6841a59edc9d8&oe=59E225D1"
+        },
+        {    
+            "id": 9,
+			"name": "Led III [Led Zeppelin] + Lurex [Queen]",
+			"description": "Tem dobradinha histórica no Lord! Duas bandas que excederam os limites do rock and roll e se tornaram importantes instituições da música de todos os tempos, nas interpretações precisas, explosivas e entusiasmantes de dois super grupos! Led Zeppelin e Queen por Led III e Lurex! Noite pra ficar na história do Lord Pub!",
+			"start_date": "Jun 10, 2017",
+			"end_date": "Jun 11, 2017",
+			"address": "Rua Viçosa, 263, Savassi, Belo Horizonte, Minas Gerais",
+			"age_rating": "18",
+			"bands": [14, 20],
+			"external_link": "https://www.facebook.com/events/856777121153798/",
+			"picture": "https://scontent.fplu8-1.fna.fbcdn.net/v/t1.0-9/18838964_1426061127441803_9211785854380100972_n.png?oh=cf0c1a5529d73ab9ef43cc39559d3972&oe=59DA6D3E"
         }
 	]
 }
